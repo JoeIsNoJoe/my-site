@@ -1,0 +1,168 @@
+html {
+    font-size: 15px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+    background-color: #f9f9fa;
+ }
+
+ h1 {
+    font-size: 35px;
+    text-align: center;
+   }
+
+ p {
+    font-size: 22px;
+    text-align: center;
+}
+
+/*Video background*/
+.video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9) {
+    .video-background {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9) {
+    .video-background {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.background-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.1;
+}
+
+/*Hyperlinks*/
+.contact {
+    word-spacing: 10px;
+    position: fixed;
+    right: 110px;
+    top: 15px;
+    z-index: 3;
+ }
+  
+ .resume-a {
+    position: fixed;
+    top: 16px;
+    right: 15px;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.623);
+    z-index: 2;
+}
+  
+/*Introduction*/
+.intro {
+    position: relative;
+    z-index: 1;
+    color: rgba(255, 255, 255, 0.623);
+ }
+
+ .profile {
+    position: relative;
+    top: 150px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+ }
+    
+ .greeting {
+    color: white;
+    font-weight: 600;
+    position: relative;
+    top: 140px;
+ }
+    
+ .subhead {
+    font-weight: 500;
+    position: relative;
+    top: 120px;
+ }
+
+ .subhead1 {
+    font-weight: 500;
+    position: relative;
+    top: 105px;
+ }
+    
+ .plan {
+    font-weight: 500;
+    position: relative;
+    top: 105px;
+}
+
+/*Tai Ji section*/
+.taiji-container {
+    position: absolute;
+    top: 1000px;
+    left: 475px;
+    width: 37%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.taiji-slide {
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+#prevBtn {
+    position: absolute;
+    top: 60%;
+    z-index: 4;
+    font-size: 30px;
+    top: 300px;
+    left: 50px;
+    cursor: pointer;
+}
+
+#nextBtn {
+    position: fixed;
+    top: 60%;
+    z-index: 4;
+    font-size: 30px;
+    top: 300px;
+    left: 700px;
+    cursor: pointer;
+}
+
+.taiji-container p {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-weight: 600;
+    font-size: 1%;
+    color: rgb(255, 255, 255);
+}
+
+.taiji-description {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.623);
+    position: relative;
+    top: 1175px;
+    padding-bottom: 100px;
+    line-height: 10px;
+}
+
+
+
