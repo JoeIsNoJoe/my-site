@@ -47,7 +47,7 @@ Here is a sample TOC(*wow! such cool!*) that is actually the TOC for this README
 
 - [Project Title](#project-title)
 - [Table of contents](#table-of-contents)
-- [Resources](#resources
+- [Resources](#resources)
 
 # Resources
 [(Back to top)](#table-of-contents)
